@@ -1,4 +1,4 @@
-# Forge
+# Hive-demo
 
 This repository is a reconstruction of an internal ops system called Hive I designed and shipped. 
 
@@ -20,8 +20,6 @@ Hive's job is basically: capture operator state, propose next actions with a hum
 - **AI as typed pipelines with evals**.
 - **Agents with explicit blast radius**. A heartbeat is a *trigger*. Authority is a separate bit (`propose_only` vs `act_with_undo`).
 - **Invite-only security**: email allowlist, app role, Postgres RLS. Service role stays off the user-facing path; the caveats are in [decision 3](#3-rls-threat-model-invite-only-team).
-
-
 
 ### Data and AI flow
 
@@ -166,4 +164,3 @@ npx tsx examples/recency-retrieval.ts
 npx tsx examples/eval-harness.ts
 ```
 
-# Hive-demo

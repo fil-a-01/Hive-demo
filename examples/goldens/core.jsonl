@@ -1,0 +1,3 @@
+{"id":"g1","query":"last meeting with Avery","expectCitedId":"new-11","comment":"temporal: newest Avery 1:1, not the wordy coach note"}
+{"id":"g2","query":"what's going on with the MBA partnership","expectCitedId":"northwind-brief","comment":"Northwind partnership brief must be cited"}
+{"id":"g3","query":"Q3 pricing review decisions","expectCitedId":"pricing-q3","comment":"topic query stays overlap-ranked; not the short 1:1"}

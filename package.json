@@ -1,0 +1,17 @@
+{
+  "name": "forge-portfolio",
+  "private": true,
+  "description": "Portfolio reconstruction: runnable examples only. Not a product.",
+  "type": "module",
+  "scripts": {
+    "example:recency": "tsx examples/recency-retrieval.ts",
+    "example:eval": "tsx examples/eval-harness.ts"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
