@@ -45,8 +45,9 @@ Capture lands in Postgres. A `SKIP LOCKED` job queue feeds typed pipelines throu
 
 ### Two loops I used
 
-1. Shipping the code using sub-agentic infra
+1. Shipping the code using custom sub-agentic infra setup in Cursor / Codex
 2. Shipping the actual agentic infra inside the platform
+3. Set up agentic automations in Cursor that run on a daily basis to send the relevant codebase updates to Slack, and a weekly checker for new updates / versions of packages / LLMs we use.
 
 ```mermaid
 flowchart TB
