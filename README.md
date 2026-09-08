@@ -2,7 +2,7 @@
 
 This repository is a reconstruction of an internal ops system called Hive I designed and shipped. 
 
-**Demo video: COMING SOON**
+**Demo video: https://www.loom.com/share/a4fc7f2fd1014bc39e965209ba07f1ce**
 
 Runnable reconstructions (fake fixtures only): `[examples/recency-retrieval.ts](examples/recency-retrieval.ts)`, `[examples/eval-harness.ts](examples/eval-harness.ts)`, `[examples/rls-allowlist.sql](examples/rls-allowlist.sql)`.
 
